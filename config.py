@@ -5,7 +5,7 @@ class Config:
     API_KEYS = set(os.environ.get("API_KEYS", "test-key-123").split(","))
     
     # Token harvester endpoint
-    TOKEN_HARVESTER_URL = os.environ.get("TOKEN_HARVESTER_URL", "http://192.168.0.11:5000/token")
+    TOKEN_HARVESTER_URL = os.environ.get("TOKEN_HARVESTER_URL", "176.100.37.77:30030/token")
     
     # Duck.ai settings
     DUCK_MODEL = "gpt-5.6-luna"
